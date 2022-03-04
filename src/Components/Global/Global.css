@@ -1,0 +1,145 @@
+
+@media(max-width:870px){
+    .card foto{
+        width: 350px;
+        position: relative;
+    }
+    .novo-container{
+        width: 350px;
+        position: relative;
+    }
+ 
+}
+
+@media(max-width:760px){
+    .divCards{
+        flex-direction: column;
+    }
+    .card:nth-child(2){
+        margin-top:40px
+    }
+    .card{
+        box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.397);
+        position: relative;
+    }
+    .banner{
+        flex-direction: column;
+    }
+
+    .texto{
+        box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.397);
+    }
+    .novo-container{
+        flex-direction: column;
+        position: relative;
+        margin-top:40px
+    }
+    
+}
+
+@media(max-width:547px){
+    .slogan h2{
+        font-size: 35px;
+    }
+    .slogan p{
+       font-size: 14px; 
+    }
+    .slogan button{
+        width: 120px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .navLeft h3{
+        font-size: 20px;
+    }
+    .navRight a{
+        font-size: 16px;
+    }
+    .btnContato{
+        width: 150px;
+        padding: 5px;
+    }
+    .texto{
+        width: 150px;
+        padding: 5px;
+    }
+    .novo-container{
+        width: 120px;
+        padding: 5px;
+    }
+}
+
+@media(max-width:455px){
+    .slogan h2{
+        font-size: 30px;
+    }
+    .slogan p{
+       font-size: 13px; 
+    }
+    .slogan div:nth-child(2){
+        width: 80%;
+    }
+    .slogan button{
+        width: 120px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    .card foto{
+        width: 300px;
+        position: relative;
+    }
+    
+    .divForm h2{
+        font-size: 22px;
+    }
+    .texto{
+        width: 300px;
+       
+    }
+    .novo-container{
+        width: 300px;
+        position: relative;
+
+    }
+    
+}
+
+@media(max-width:400px){
+    .slogan h2{
+        font-size: 25px;
+    }
+    .card foto{
+        width: 250px;
+        position: relative;
+    }
+    .novo-container {
+        width: 250px;
+        position: relative;
+    }
+}
+
+@media(max-width:350px){
+    .slogan h2{
+        font-size: 23px;
+    }
+    .slogan button{
+        width: 110px;
+        font-size: 13px;
+    }
+    .card foto{
+        width: 210px;
+        position: relative;
+        width: 300px;
+    }
+   .novo-container{
+
+    width: 210px;
+    position: relative;
+    width: 300px;
+   }
+}
